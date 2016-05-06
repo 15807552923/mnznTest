@@ -1,0 +1,154 @@
+
+@media (max-width: 700px) {
+	.i-banner {
+    background: #4e7199 no-repeat center;
+    background-color: #4f5914;
+    background-image: url(../images/banner.jpg);
+    height: 100px;
+}
+.i-banner-content {
+    margin: 0 auto 12px;
+    width: 90%;
+}
+
+.i-banner-portrait {
+    display: inline;
+    float: left;
+    width: 60px;
+    margin-top: 10px;
+}
+.i-banner-portrait a, .i-banner-portrait img {
+    width: 50px;
+    height: 50px;
+}
+
+.i-banner-portrait a {
+    -webkit-border-radius: 50%;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 50%;
+    -moz-background-clip: padding;
+    border-radius: 50%;
+    background-clip: padding-box;
+    overflow: hidden;
+    border: 2px solid #e1e1e1;
+    display: block;
+}
+.i-banner-portrait img {
+    width: 50px;
+    height: 50px;
+}
+img{
+	border: 0;
+}
+
+.i-banner, .i-banner a {
+    color: #fff;
+}
+
+.i-banner-main {
+    display: inline;
+    float: left;
+    width: 165px;;
+}
+
+
+.i-banner-main-hello {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.i-banner-main-hello .userName {
+    font-size: 1em;
+    line-height: 1em;
+}
+.fn-left {
+    display: inline;
+    float: left;
+}
+.withDrawal_div input{
+	width: 90%;
+}
+.withDrawal_div select{
+	width: 90%;
+}
+.withDrawal_div div{
+	clear:both;
+	float: left;
+	margin: 10px 5px;
+}	
+}
+@media (min-width: 979px){
+	
+	.i-banner {
+    background: #4e7199 no-repeat center;
+    background-color: #4f5914;
+    background-image: url(../images/banner.jpg);
+    height: 150px;
+}
+.i-banner-content {
+    margin: 0 auto 12px;
+    width: 90%;
+}
+
+.i-banner-portrait {
+    display: inline;
+    float: left;
+    width: 86px;
+    margin-top: 10px;
+}
+.i-banner-portrait a, .i-banner-portrait img {
+    width: 80px;
+    height: 80px;
+}
+
+.i-banner-portrait a {
+    -webkit-border-radius: 50%;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 50%;
+    -moz-background-clip: padding;
+    border-radius: 50%;
+    background-clip: padding-box;
+    overflow: hidden;
+    border: 2px solid #e1e1e1;
+    display: block;
+}
+.i-banner-portrait img {
+    width: 80px;
+    height: 80px;
+}
+img{
+	border: 0;
+}
+
+.i-banner, .i-banner a {
+    color: #fff;
+}
+
+.i-banner-main {
+    display: inline;
+    float: left;
+}
+
+
+.i-banner-main-hello {
+    padding-top: 26px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.i-banner-main-hello .userName {
+    font-size: 16px;
+    line-height: 16px;
+}
+.fn-left {
+    display: inline;
+    float: left;
+}
+
+.withDrawal_div input{
+	width: 150px;
+}
+.withDrawal_div div{
+	float: left;
+	margin: 10px 5px;
+}	
+}
